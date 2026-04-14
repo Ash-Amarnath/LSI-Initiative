@@ -82,7 +82,7 @@ const Contact = () => {
             <MapPin className="mx-auto text-accent mb-4" size={32} />
             <h3 className="font-display text-2xl font-bold text-foreground mb-3">Based Across India</h3>
             <p className="text-muted-foreground max-w-lg mx-auto mb-6">
-              LSI is a distributed initiative. Our co-founders and volunteers operate from multiple states.
+              LSI India is a distributed initiative. Our co-founders and volunteers operate from multiple states.
               We work remotely and on the ground — wherever the data takes us.
             </p>
             <Link
