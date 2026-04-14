@@ -23,8 +23,8 @@ const Footer = () => {
           <Link to="/" className="flex items-center gap-3">
             <img src={lsiLogo} alt="LSI" className="h-10 w-auto" />
             <div>
-              <span className="font-display text-lg font-bold text-foreground">LSI Initiative</span>
-              <span className="block text-xs text-muted-foreground">Living Standard of India</span>
+              <span className="font-display text-lg font-bold text-foreground">LSI India</span>
+              <span className="block text-xs text-muted-foreground">Living Standards Initiative</span>
             </div>
           </Link>
 
@@ -61,7 +61,7 @@ const Footer = () => {
             "Data changes lives. Start with visibility."
           </p>
           <p className="text-text-faint text-xs">
-            © 2025 LSI Initiative. All rights reserved. Made with purpose by students.
+            © 2025 LSI India · Living Standards Initiative. All rights reserved. Made with purpose by students.
           </p>
         </div>
       </div>
