@@ -8,7 +8,7 @@ import {
 } from "@/components/ui/accordion";
 
 const faqs = [
-  { q: "What is LSI?", a: "LSI (Living Standard of India) is a student-led initiative that documents real living conditions across Indian villages — electricity, water, education, healthcare — to fill the gaps official data misses." },
+  { q: "What is LSI?", a: "LSI (Living Standards Initiative) is a student-led initiative that documents real living conditions across Indian villages — electricity, water, education, healthcare — to fill the gaps official data misses. Our India pilot is the first step toward global coverage." },
   { q: "Do I need prior experience to join?", a: "No. We provide full training. You need curiosity and access to a local area." },
   { q: "How much time does volunteering require?", a: "As little as 2-3 hours per week. Field visits are optional; you can contribute remotely." },
   { q: "Is LSI a registered organization?", a: "We are a student-led initiative. Registration as a formal organization is in progress." },
