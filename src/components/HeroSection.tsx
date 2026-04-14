@@ -28,7 +28,6 @@ const HeroSection = () => {
             <span style={{ color: '#f97316' }}>Standards</span>{' '}
             <span className="text-foreground">Initiative</span>
           </h1>
-          <p className="text-muted-foreground text-base sm:text-lg font-medium tracking-wide">India Pilot</p>
         </motion.div>
 
         <motion.h2
