@@ -48,14 +48,21 @@ const CoFounders = () => {
               transition={{ delay: i * 0.2 }}
               className="bg-card rounded-2xl border border-border overflow-hidden hover:shadow-xl transition-shadow group"
             >
-              {/* Photo placeholder */}
-              <div className="h-56 bg-gradient-to-br from-primary/10 via-accent/5 to-primary/10 flex items-center justify-center relative overflow-hidden">
-              <div className="w-28 h-28 rounded-full overflow-hidden border-4 border-primary/20 bg-background/80 z-10">
-                <img
-                  src={f.image}
-                  alt={f.name}
-                  className="w-full h-full object-cover"
-                />
+              <div className="h-72 overflow-hidden relative">
+                {f.image ? (
+                  <img
+                    src={f.image}
+                    alt={f.name}
+                    className="w-full h-full object-cover object-top"
+                  />
+                ) : (
+                  <div className="w-full h-full bg-gradient-to-br from-primary/10 via-accent/5 to-primary/10 flex items-center justify-center">
+                    <span className="font-display text-5xl font-bold text-primary">
+                      {f.name.split(" ").map((w) => w[0]).join("")}
+                    </span>
+                  </div>
+                )}
+                <div className="absolute inset-0 bg-gradient-to-t from-card via-transparent to-transparent" />
               </div>
                 {/* Decorative blobs */}
                 <div className="absolute top-4 right-4 w-20 h-20 rounded-full bg-accent/10 blur-xl" />
