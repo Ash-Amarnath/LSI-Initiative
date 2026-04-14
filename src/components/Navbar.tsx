@@ -46,8 +46,8 @@ const Navbar = () => {
         <Link to="/" className="flex items-center gap-3 shrink-0">
           <img src={lsiLogo} alt="LSI Logo" className="h-14 sm:h-16 w-auto" />
           <div className="hidden sm:block">
-            <span className="font-display text-xl font-bold text-foreground leading-none">LSI</span>
-            <span className="block text-[10px] text-muted-foreground leading-tight tracking-wider uppercase">Initiative</span>
+            <span className="font-display text-xl font-bold text-foreground leading-none">LSI India</span>
+            <span className="block text-[10px] text-muted-foreground leading-tight tracking-wider uppercase">Living Standards Initiative</span>
           </div>
         </Link>
 
