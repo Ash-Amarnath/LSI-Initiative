@@ -49,12 +49,12 @@ const CoFounders = () => {
               className="bg-card rounded-2xl border border-border overflow-hidden hover:shadow-xl transition-shadow group"
             >
               {/* Photo area */}
-              <div className="h-72 overflow-hidden relative">
+              <div className="bg-muted flex items-center justify-center overflow-hidden" style={{ aspectRatio: '1 / 1' }}>
                 {f.image ? (
                   <img
                     src={f.image}
                     alt={f.name}
-                    className="w-full h-full object-cover object-top"
+                    className="w-full h-full object-contain"
                   />
                 ) : (
                   <div className="w-full h-full bg-gradient-to-br from-primary/10 via-accent/5 to-primary/10 flex items-center justify-center">
@@ -63,7 +63,6 @@ const CoFounders = () => {
                     </span>
                   </div>
                 )}
-                <div className="absolute inset-0 bg-gradient-to-t from-card via-transparent to-transparent" />
               </div>
 
               {/* Text content */}
