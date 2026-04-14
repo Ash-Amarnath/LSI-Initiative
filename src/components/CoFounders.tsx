@@ -15,7 +15,7 @@ const founders = [
     role: "Co-Founder",
     bio: "An interdisciplinary researcher, a Young India Fellow, and an Erasmus Mundus scholar. Growing up in rural Tamil Nadu without access to basic living standards — clean water, reliable electricity, quality healthcare — I witnessed how invisibility perpetuates inequality. Now leading LSI Initiative to change that narrative through data, ensuring every citizen has the dignity of basic living standards.",
     quote: "Rural India isn't invisible—it's just been measured wrong. LSI makes every village count.",
-    image: "/assets/ash.jpg"
+    image: "/assets/ash.jpg",
     links: { linkedin: "www.linkedin.com/in/amarnath-amarnath", instagram: "https://www.instagram.com/_ash_garo_/", email: "mailto:ash_amar@outlook.com" },
   },
 ];
